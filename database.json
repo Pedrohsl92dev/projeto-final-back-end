@@ -1,5 +1,100 @@
 {
     "ALUNO": [],
-    "CURSO": [],
-    "USUARIO": []
+    "CURSO": [
+        {
+            "nome": "Angular 2+",
+            "descricao": "Módulos",
+            "idProfessor": "1",
+            "aulas": [
+                {
+                    "id": 0,
+                    "nome": "Aula 1",
+                    "duracao": "2 horas",
+                    "idCurso": "1"
+                }
+            ],
+            "id": 1
+        },
+        {
+            "nome": "AngularJs",
+            "descricao": "Módulos",
+            "idProfessor": "1",
+            "aulas": [
+                {
+                    "id": 0,
+                    "nome": "Aula 2 ",
+                    "duracao": "2 horas",
+                    "idCurso": "2"
+                }
+            ],
+            "id": 2
+        }
+    ],
+    "USUARIO": [
+        {
+            "nome": "Bob Brown",
+            "email": "pedrohsl92@gmail.com",
+            "senha": null,
+            "tipo": 1,
+            "cursos": [
+                {
+                    "nome": "Angular 2+",
+                    "descricao": "Módulos",
+                    "idProfessor": "1",
+                    "aulas": [
+                        {
+                            "id": 0,
+                            "nome": "Aula 1",
+                            "duracao": "2 horas",
+                            "idCurso": "1"
+                        }
+                    ],
+                    "id": 1,
+                    "checked": true
+                },
+                {
+                    "nome": "AngularJs",
+                    "descricao": "Módulos",
+                    "idProfessor": "1",
+                    "aulas": [
+                        {
+                            "id": 0,
+                            "nome": "Aula 2 ",
+                            "duracao": "2 horas",
+                            "idCurso": "2"
+                        }
+                    ],
+                    "id": 2,
+                    "checked": true
+                }
+            ],
+            "id": 1
+        },
+        {
+            "nome": "Pedro",
+            "email": "pedro@gmail.com",
+            "formacao": "TI",
+            "idade": "25",
+            "tipo": 2,
+            "senha": "$2a$08$6uSy4OgJjwqaRO2AbLFoeeCcR9F1mpWfxL182jFhyEG3FPr9VLkta",
+            "cursos": [
+                {
+                    "nome": "Angular 2+",
+                    "descricao": "Módulos",
+                    "idProfessor": "1",
+                    "aulas": [
+                        {
+                            "id": 0,
+                            "nome": "Aula 1",
+                            "duracao": "2 horas",
+                            "idCurso": "1"
+                        }
+                    ],
+                    "id": 1,
+                    "checked": true
+                }
+            ],
+            "id": 2
+        }
+    ]
 }
